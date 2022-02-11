@@ -19,6 +19,7 @@ int main(){
     if(playing==0){
     
      for (i=1;i<=limit;i++){   
+        c=0;
         label:
         printf("--->>Enter 0-ROCK\n--->>Enter 1-PAPER\n--->>Enter2-SCISSOR\n");
         printf("--->>It's your turn:\n");
